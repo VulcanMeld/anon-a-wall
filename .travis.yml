@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ouftDxEQNbldA6EeKxJN+HQ+P0SYz45Q/Kdg+qI2sQYBckNe/BsT2YdPTuiAdN9wKfngMefmJq2yEb7eaiDwKWFvEh/VfZI+e4rRzXg73MEiCXbtBXKeSYIxAK+jOPlpY2croLXhuXmRGVhz6c4LdUT0fsMNmRQUHZ6HCjKmARE8lZ3mAK8tF6WVPlb4mGKs73UHGT6la0KJhvhKkeJzm0cKtwQ2jw6uOBbb0HhsSS9Rszr27AGaUXtwJx9E7xejWL/cTIJPI37vohV8PI0obEqg3bX9DJC2eYCIC9OZPGOpMYve+j7reUr3VRkaO2FP48E3C1e5v3fkSnzg9pRuNWWuBhosRAbJ6AwwJsV1PMG3XA+pzRIY/l9Aj90Q/pXI3T98G5ve2r98rlzawVilDcGX5oJ1rEX8r4JI747SwWjt6WhNYuUcnhVXI1eMBZqITlXcNKnxtvpCQ4XkedZ7e26yGxazxESB3YjxZApcCXyDjKffmr/aj+r9aqqNInYvQKA+Rm4f33/j9gMIe+Kpl/AwxE7jwjkQ8wPoViWrKvg1eOQ5p+/DReSoDnKSZG8mIsnWqH61qlyr08TXskqjiCZvtNKv2uZ8as3/TAOQEPuMLMWSeMvXXbhO4llsOJOpwy58bg9b+xybbLB++vX9N6ecE7oWYc33L20FpbKJrRc=
+  app: powerful-wave-93006
+  on:
+    repo: VulcanMeld/anon-a-wall

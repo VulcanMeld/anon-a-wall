@@ -26,9 +26,9 @@ const watchForm = () => {
 };
 
 const displayWallPosts = data => {
-  for (i = 0; i < data.length; i++) {
+  for(let i = 0; i < data.length; i++) {
     $(".js-wall").append(
-      `<div class = 'post' id = ${i}><p>${data[i].content}</p><button class = "js-like-button"></button><p class = "js-like-count">Like Count: ${data}[i].likes </p></div>`
+      `<div class = 'post' id = ${i}><p>${data[i].content}</p><button class = "js-like-button"></button><p class = "js-like-count">Like Count: ${data[i].likes} </p></div>`
     );
   }
 
